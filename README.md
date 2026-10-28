@@ -73,7 +73,6 @@ src/
 
 ## Troubleshooting
 
-- **Nothing happens when pressing the horn button:** Verify your ASI loader is loading the plugin and that the executable matches the expected game version. Hooks are not installed when the expected bytes do not match.
 - **Your custom horn doesn't play:** Check the path in `Custom Horn File`, or disable custom audio to fall back to the built-in horn.
 - **Other players cannot hear your horn:** Every player who should hear horns must install the mod. Custom horn playback additionally needs matching audio files/settings on those clients.
 - **Build errors:** Confirm you selected x64 and have the Visual Studio C++/MSVC and MASM components installed. See [BUILDING.md](BUILDING.md).
