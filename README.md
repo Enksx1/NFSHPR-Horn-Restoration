@@ -35,7 +35,7 @@ Edit `hpr_horn.ini` next to the `.asi` file before starting the game. The includ
 | `Custom Horn Sound` | `True` | Enable experimental custom SPS playback |
 | `Custom Horn File` | `70_1C_1D_00.dat` | Custom SPS file path, relative to the `.asi` folder |
 
-**Important:** The referenced `70_1C_1D_00.dat` file is **included** in this repository for testing purposes, taken from Most Wanted 2012. To use the game's original horn audio without providing that file, set `Custom Horn Sound = Off`. When a custom sound cannot be loaded, the source falls back to the available game horn resource.
+**Important:** The referenced `70_1C_1D_00.dat` file is **included** in this repository for testing purposes, taken from Most Wanted 2012. To use the game's original horn audio, set `Custom Horn Sound = Off`. When a custom sound cannot be loaded, the source falls back to the available game horn resource.
 
 Bindings may be set to `None` to disable them. The configuration contains available key names / button names / and raw codes. For multiplayer custom audio, each player needs the same custom file and settings for matching playback.
 
