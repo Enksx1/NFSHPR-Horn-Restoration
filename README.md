@@ -73,7 +73,7 @@ src/
 ## Troubleshooting
 
 - **Your custom horn doesn't play:** Check the path in `Custom Horn File`, or disable custom audio to fall back to the built-in horn.
-- **Horn doesn't work on a specific car** Heavily modified _EN vehicle files may stall the hook and cause slight frame rate issues, as the vehicle horn may be allocated into a different memory region due to changes/additions to a vehicles EN file. This will be patched in future updates. 
+- **Horn doesn't work on a specific car:** Heavily modified _EN vehicle files may stall the hook and cause slight frame rate issues, as the vehicle horn may be allocated into a different memory region due to changes/additions to a vehicles EN file. This will be patched in future updates. 
 - **Other players cannot hear your horn:** Every player who should hear horns must install the mod. Custom horn playback additionally needs matching audio files/settings on those clients.
 - **Build errors:** Confirm you selected x64 and have the Visual Studio C++/MSVC and MASM components installed. See [BUILDING.md](BUILDING.md).
 
