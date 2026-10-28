@@ -77,3 +77,11 @@ src/
 - **Your custom horn doesn't play:** Check the path in `Custom Horn File`, or disable custom audio to fall back to the built-in horn.
 - **Other players cannot hear your horn:** Every player who should hear horns must install the mod. Custom horn playback additionally needs matching audio files/settings on those clients.
 - **Build errors:** Confirm you selected x64 and have the Visual Studio C++/MSVC and MASM components installed. See [BUILDING.md](BUILDING.md).
+
+## Misc
+
+This mod was made to be compatible with other ASI patches, such as AkaSokuro's 'NFSHPR-Patches-Pack'. Both mods patch the same memory region, which caused conflicting issues prior. To resolve this, Horn Restoration includes a compatibility fallback that detects the existing patch and skips its own overlapping modification, allowing both mods to function alongside each other without interference.
+
+The mod originally was written in Cheat Engines' assembly for proof of concept/functionality. Reverse engineering, memory tracing, ASM hooks, and the horn restoration method was done manually by me. 
+
+**AI Usage Disclosure:** Claude AI was used to assist in writing the C++ portion of this mod along with providing a few lua engine debugging scripts to trace horn network synchronization across clients.
