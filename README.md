@@ -16,7 +16,6 @@ The mod supports hold-to-honk input, configurable keyboard, controller bindings,
 ## Installation
 
 Drop dinput8.dll and the scripts folder in your main directory (\Need For Speed Hot Pursuit Remastered), and configure any custom keybinds/experimental settings if needed in the `hpr_horn.ini`config file.
-**FOR EXPERIMENTAL FEATURES:** Custom horn audio file `70_1C_1D_00.dat` is provided in the /assets folder. Place the file from that folder, into the /scripts folder in your NFSHPR Directory alongside the asi/ini config file.
 
 
 > **Compatibility:** The source uses hard-coded executable offsets and checks the expected instruction bytes before installing hooks. It does NOT work with other versions or the original 2010 game.
